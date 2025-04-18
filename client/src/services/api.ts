@@ -12,7 +12,7 @@ import {
 
 const api = axios.create({
   // baseURL: 'https://vercel.com/ketans-projects-ad20367f/app-back/3AGgRAejr5ZaPGoT5HNhchRkZrFf',
-  baseURL: 'https://renderall.onrender.com', // For development',
+  baseURL: 'https://renderall.onrender.com/api', // For development',
   headers: {
     'Content-Type': 'application/json'
   },
