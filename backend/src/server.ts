@@ -13,7 +13,7 @@ const app = express();
 
 // Middleware setup
 app.use(cors({
-  origin: 'http://localhost:8080',
+  origin: 'https://renderall-2.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
