@@ -34,7 +34,7 @@ const App = () => (
             <Route path="/patient-form" element={<PatientForm />} />
             <Route path="/verification" element={<VerificationPage />} />
             <Route path="/appointment-confirmed" element={<AppointmentConfirmed />} />
-            <Route path="/verify-identity/:id" element={<VerifyIdentity />} />
+            <Route path="/verify-identity" element={<VerifyIdentity />} />
             <Route path="/otp-verification" element={<OTPVerification />} />
             <Route path="/appointment-status" element={<AppointmentStatus />} />
             <Route path="/appointment-cancelled" element={<AppointmentCancelled />} />

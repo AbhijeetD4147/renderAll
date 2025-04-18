@@ -37,7 +37,7 @@ const AppointmentConfirmed: React.FC = () => {
           website_link: 'www.rosecity.com',
           to_email: patientEmail,
           verify_link: `${window.location.origin}/verify-identity/${appointmentRequest?.id}`,
-          verify_button: `<a href="https://renderall-2.onrender.com/verify-identity/${appointmentRequest?.id}" 
+          verify_button: `<a href="https://renderall-2.onrender.com/verify-identity" 
             style="background-color: #2196F3; color: white; padding: 14px 25px; 
             text-align: center; text-decoration: none; display: inline-block; 
             border-radius: 6px; margin: 15px 0;">
